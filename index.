@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bài Nộp</title>
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:linear-gradient(135deg,#74ebd5,#ACB6E5);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .card{
+            background:white;
+            padding:40px;
+            border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.2);
+            text-align:center;
+            width:400px;
+        }
+
+        h1{
+            color:#333;
+            margin-bottom:10px;
+        }
+
+        p{
+            color:#555;
+            font-size:18px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 25px;
+            background:#4CAF50;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Xin chào thầy/cô 👋</h1>
+        <p><strong>Họ tên:</strong> Đào Phương </p>
+        <p><strong>Lớp:</strong> </p>
+        <p>Đây là website bài tập của em.</p>
+        <a href="#" class="btn">Cảm ơn thầy/cô đã xem</a>
+    </div>
+
+</body>
+</html>
